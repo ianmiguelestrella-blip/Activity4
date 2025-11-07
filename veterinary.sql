@@ -68,3 +68,14 @@ CREATE TABLE invoices (
     (8, 'Sofia', 'Fernandez', '753 Rizal Ave, Batangas City', '09241234567', 'sofia.fernandez@example.com'),
     (9, 'Diego', 'Martinez', '852 Bonifacio Rd, Tanauan', '09251234567', 'diego.martinez@example.com'),
     (10, 'Conan', 'Gomez', '951 Katipunan St, Lipa City', '09261234567', 'conan.gomez@example.com');
+INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color, ownerid) VALUES
+    (1, 'Taeri', 'Dog', 'Golden Retriever', '2018-05-12', 'Female', 'Yellow', 1),
+    (2, 'Browny', 'Dog', 'Chow chow', '2019-03-08', 'Male', 'Brown', 2),
+    (3, 'Whiskers', 'Cat', 'Persian', '2020-07-22', 'Male', 'White', 3),
+    (4, 'Simba', 'Cat', 'Persian', '2017-11-30', 'Female', 'White', 4), 
+    (5, 'Leo', 'Dog', 'German Shepherd', '2016-09-15', 'Male', 'Black', 5),
+    (6, 'Carrot', 'Dog', 'Shitsu', '2021-01-10', 'Male', 'Gray', 6),
+    (7, 'Mawi', 'Dog', 'Poodle', '2018-04-05', 'Female', 'Cream', 7),
+    (8, 'Yanah', 'Cat', 'Persian', '2019-06-18', 'Male', 'Brown', 8),
+    (9, 'Coco', 'Cat', 'Persian', '2020-02-25', 'Female', 'Yellow and Gray',9),
+    (10, 'Buddy', 'Dog', 'Golden Retriever', '2015-12-01', 'Male', 'Golden', 10);

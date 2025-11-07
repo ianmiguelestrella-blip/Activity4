@@ -79,3 +79,14 @@ INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color,
     (8, 'Yanah', 'Cat', 'Persian', '2019-06-18', 'Male', 'Brown', 8),
     (9, 'Coco', 'Cat', 'Persian', '2020-02-25', 'Female', 'Yellow and Gray',9),
     (10, 'Buddy', 'Dog', 'Golden Retriever', '2015-12-01', 'Male', 'Golden', 10);
+INSERT INTO appointments (appointid, animalid, appointdate, reason) VALUES
+    (1, 1, '2025-01-10', 'Annual check-up'),
+    (2, 3, '2025-01-12', 'Vaccination'),
+    (3, 3, '2025-01-15', 'cold  treatment'),
+    (4, 3, '2025-01-18', 'diarrhea'),
+    (5, 5, '2025-01-20', 'Colds'),
+    (6, 6, '2025-01-22', 'Fever'),
+    (7, 6, '2025-01-25', 'Follow-up visit'),
+    (8, 8, '2025-01-28', 'Eye check-up'),
+    (9, 9, '2025-01-30', 'Medical'),
+    (10, 1, '2025-02-02', 'X-ray');

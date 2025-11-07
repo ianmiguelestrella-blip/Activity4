@@ -39,3 +39,10 @@ CREATE TABLE doctors (
 );
 
 
+CREATE TABLE invoices (
+        invoiceid INT PRIMARY KEY,
+        appointid INT,
+        totalamount DECIMAL(10,2),
+        paymentdate TIME,
+        FOREIGN KEY (appointid) REFERENCES appointments(appointid)
+    );
